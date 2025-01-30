@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Profile Card</title>
+</head>
+<body>
+       <section>
+           <div data-testid="profilePicture" class="images">
+              <img src="./images/Delight.jpg" width="100%" height="100%" alt="">
+           </div>
+             
+           <div>
+            <h1> Name: Delight Aberage</h1>
+            <p data-testid="jobTitle"> jobTitle: Frontend Developer</p>
+            <p data-testid="emailAddress"> Email: delightvincent487@gmail.com</p>
+            <h1>Address: Rivers State , Nigeria</h1>
+           </div>
+
+           <div data-testid="currentTimeUTC" class="UTC" >
+           
+           </div>
+           <div data-testid="socialLinks" class="social-media">
+              <a href="https://web.facebook.com/profile.php?id=100092200536639"><img src="data:image/png;base64,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" alt=""></a>
+              <a href="https://x.com/dTech6195"><img src="data:image/png;base64,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" alt=""></a>
+              <a href="https://github.com/Yun4g"><img src="data:image/png;base64,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" alt=""></a>
+           </div>
+
+           <div data-testid="shortBio" class="Text">
+              <h1>
+                <span data-testid="shortBio">I am a passionate frontend developer  I enjoy building intuitive and visually appealing user interfaces. Through the HNG internship, I aim to refine my skills, collaborate with professionals, and contribute to innovative projects.</span>
+
+
+            </h1>
+           </div>
+       </section>
+
+
+       <script src="./app.js"></script>
+</body>
+</html>
+<!-- Why I Want to Be a Front-End Developer and How HNG Will Help Me Achieve My Goals
+
+My Motivation for Becoming a Frontend Developer
+
+The world of technology is constantly evolving, and the internet has become an integral part of our daily lives. From social media platforms to e-commerce websites, we interact with web applications every day. As someone passionate about creativity, problem-solving, and user experience, I have chosen frontend development as my career path.
+
+One of the main reasons I am drawn to frontend development is the balance between creativity and logical problem-solving. Unlike backend development, which focuses on databases and server logic, frontend development allows me to create visually appealing and interactive user interfaces. I enjoy working with design elements, animations, and layouts while also writing structured code that ensures a smooth user experience.
+
+Additionally, I have a strong passion for user experience (UX). A great website or application is not just about aesthetics; it’s about usability. Frontend development allows me to put myself in the user’s shoes and design interfaces that are intuitive and engaging. Creating seamless interactions that improve user satisfaction is something that excites me.
+
+How HNG Will Help Me Grow in the Field
+
+HNG is an intensive internship program designed to help developers improve their skills by working on real-world projects. It provides mentorship, collaboration, and structured learning that will help me grow as a frontend developer.
+
+Through HNG, I will gain hands-on experience working with modern technologies like React.js, Tailwind CSS, and JavaScript frameworks. The opportunity to work on challenging tasks will enhance my problem-solving abilities and improve my debugging skills. Additionally, the mentorship provided by experienced developers will guide me in best coding practices, accessibility standards, and performance optimization techniques.
+
+Networking is another significant advantage of the HNG internship. I will have the chance to connect with industry professionals, fellow developers, and potential employers. Collaborating on projects with a diverse group of developers will improve my ability to work in a team and expose me to new ideas and best practices.
+
+My Goals for the Internship and How I Plan to Achieve Them
+
+My primary goal for the HNG internship is to enhance my frontend development skills by working on real-world projects and improving my ability to create user-friendly applications. To achieve this, I plan to:
+
+Actively Participate in Tasks – By engaging in coding challenges and real-world assignments, I will sharpen my skills and gain practical experience.
+
+Learn from Mentors – I will take advantage of the mentorship provided by asking questions, seeking feedback, and implementing best coding practices.
+
+Stay Updated with Industry Trends – Technology evolves rapidly, and I will ensure I stay informed about the latest frontend development tools and practices.
+
+Collaborate with Peers – Working in a team environment will help me improve my communication skills and expose me to different problem-solving approaches.
+
+Build a Portfolio – Throughout the internship, I will document my projects and contributions to create a strong portfolio that showcases my skills to potential employers.
+
+Conclusion
+
+Becoming a frontend developer is not just a career choice for me—it’s a passion. The combination of creativity, problem-solving, and continuous learning makes it an exciting and rewarding field. HNG provides an excellent platform for growth by offering mentorship, collaboration, and real-world experience. Through active participation, learning from mentors, and continuous improvement, I am confident that HNG will help me achieve my goals and advance in my frontend development career.
+
+Short Bio
+
+I am a passionate frontend developer with a strong background in digital product design and brand identity. With over five years of experience, I enjoy building intuitive and visually appealing user interfaces. I thrive on solving challenges, optimizing user experience, and staying updated with the latest industry trends. Through the HNG internship, I aim to refine my skills, collaborate with professionals, and contribute to innovative projects.
+
+References:
+[1] HNG Internship - https://hng.tech/
+[2] React.js - https://react.dev/
+[3] Tailwind CSS - https://tailwindcss.com/
+[4] JavaScript Frameworks - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+ -->
